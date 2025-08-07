@@ -1,5 +1,3 @@
-import asyncio
-import aiohttp
 import requests
 import time
 from bs4 import BeautifulSoup
@@ -11,4 +9,4 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class WebCrawler:
-    """Асинхронный веб-краулер"""
+    """Cинхронный веб-краулер"""
